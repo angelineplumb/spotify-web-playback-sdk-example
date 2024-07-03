@@ -2,9 +2,10 @@ const express = require('express')
 const request = require('request');
 const dotenv = require('dotenv');
 
-const port = 5000
+const port = 5002
 
-global.access_token = ''
+global.access_token = 'BQCkFK96dBA-zICAlJ179fL_TCVgaLAX2eSu84Kx73ruXNKE2_Pq28Mlbsa364Nzrn_XqzWUUBRSSnVE9WAfR74x5IZy8iVExN6bnUH9X4s7946Xwv6oGRUz1wK5lFI0BvfIckdLynuWTKexdVJwnGIcKvpTKgtMpreWotPEZ1fb5vBzkX-AYKN2gy72ic8gqO-UivJ29onEtSXyRNi0rust7sQG'
+
 
 dotenv.config()
 
